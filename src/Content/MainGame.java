@@ -50,13 +50,15 @@ public class MainGame extends JFrame implements KeyListener{
           ///
           rezul = new JLabel();
           rezul.setSize(400,200);
-          rezul.setLocation(25,20);
-          rezul.setText("Yout result: " + point + " points!");
+          rezul.setFont(new Font("TimesRoman", Font.BOLD | Font.ITALIC, 20));
+          rezul.setLocation(100,20);
+          rezul.setText("Your result: " + point + " points!");
           add(rezul);
           ///
           go_to_menu = new JButton();
-          go_to_menu.setSize(100,50);
-          go_to_menu.setLocation(200,250);
+          go_to_menu.setBackground(Color.GREEN);
+          go_to_menu.setSize(200,50);
+          go_to_menu.setLocation(150,250);
           go_to_menu.setText("MENU");
           go_to_menu.addActionListener(new ListenerMENU());
           add(go_to_menu);

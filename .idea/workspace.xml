@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12ef3d81-7195-4849-92ef-007a41c48dcb" name="Default Changelist" comment="" />
+    <list default="true" id="12ef3d81-7195-4849-92ef-007a41c48dcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$GameField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$GameField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$ListenerExit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$ListenerExit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$ListenerMENU.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$ListenerMENU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$ListenerSTART.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$ListenerSTART.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$game_go.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Content/MainGame$game_go.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake/Content/MainGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake/Content/MainGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/MainGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/MainGame.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +29,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Content/MainGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="190" column="7" lean-forward="true" selection-start-line="190" selection-start-column="7" selection-end-line="190" selection-end-column="7" />
+            <state relative-caret-position="236">
+              <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="class#Menu#0;class#MainGame#0" />
+                <element signature="class#GameField#0;class#MainGame#0" />
+                <element signature="class#game_go#0;class#MainGame#0" />
                 <element signature="class#ListenerSTART#0;class#MainGame#0" />
                 <element signature="class#ListenerExit#0;class#MainGame#0" />
                 <element signature="method#keyTyped#0;class#MainGame#0" />
@@ -34,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Content/PaintField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="272">
               <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Content/PaintSnake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="459">
               <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/Content/SnakeAnim.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1258">
-              <caret line="74" column="39" lean-forward="true" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+              <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -68,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/Content/Coord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -87,6 +102,9 @@
       <find>go</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -104,13 +122,16 @@
     <option name="width" value="1040" />
     <option name="height" value="1030" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +160,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568473823533" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -189,11 +211,12 @@
       <workItem from="1568495480895" duration="597000" />
       <workItem from="1568541425356" duration="5473000" />
       <workItem from="1568574393843" duration="2194000" />
+      <workItem from="1568620506295" duration="515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28260000" />
+    <option name="totallyTimeSpent" value="28775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,7 +231,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.26308724" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.25302014" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -258,33 +281,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content/Coord.java">
+    <entry file="file://$PROJECT_DIR$/src/Content/MainGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content/SnakeAnim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="39" lean-forward="true" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content/PaintSnake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="236">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="class#Menu#0;class#MainGame#0" />
+            <element signature="class#GameField#0;class#MainGame#0" />
+            <element signature="class#game_go#0;class#MainGame#0" />
+            <element signature="class#ListenerSTART#0;class#MainGame#0" />
+            <element signature="class#ListenerExit#0;class#MainGame#0" />
+            <element signature="method#keyTyped#0;class#MainGame#0" />
+            <element signature="method#keyPressed#0;class#MainGame#0" />
+            <element signature="method#keyReleased#0;class#MainGame#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Content/PaintField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="272">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -292,18 +309,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content/MainGame.java">
+    <entry file="file://$PROJECT_DIR$/src/Content/PaintSnake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="190" column="7" lean-forward="true" selection-start-line="190" selection-start-column="7" selection-end-line="190" selection-end-column="7" />
+        <state relative-caret-position="459">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ListenerSTART#0;class#MainGame#0" />
-            <element signature="class#ListenerExit#0;class#MainGame#0" />
-            <element signature="method#keyTyped#0;class#MainGame#0" />
-            <element signature="method#keyPressed#0;class#MainGame#0" />
-            <element signature="method#keyReleased#0;class#MainGame#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Content/SnakeAnim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Content/Coord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
